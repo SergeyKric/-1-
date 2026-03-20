@@ -41,6 +41,7 @@ docker-compose up -d
 2. **Проверка локального запуска:**
 
 curl http://localhost:4200/
+
 **Должны увидеть:**
 {
   "endpoints": {
@@ -52,6 +53,7 @@ curl http://localhost:4200/
 3. **Проверка основного функционала:**
 
 curl http://localhost:4200/info
+
 **Должны увидеть:**
 {
   "days_before_new_year": 290
