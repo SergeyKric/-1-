@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  new-year-counter:
+    build: .
+    container_name: new-year-counter
+    ports:
+      - "4200:4200"
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Moscow
